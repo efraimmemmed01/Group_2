@@ -95,6 +95,7 @@ h1 {
   font-family: "Courier New", Courier, monospace;
   box-shadow: 1px 2px 2px 2px black;
   border: 1px solid black;
+  border: none;
 }
 
 .button-3 {
@@ -501,6 +502,7 @@ h6 {
   color: rgb(214, 214, 29);
   position: relative;
   top: 50px;
+  border: none;
 }
 
 /* section-8 basladi */
@@ -592,6 +594,7 @@ footer {
   position: relative;
   top: 25px;
   right: 10px;
+  border: none;
 }
 
 li .button-9:hover {
