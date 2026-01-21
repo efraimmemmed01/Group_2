@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inder&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;;
+}
+body{
+    height: auto;
+    position: relative;
+}
+
+header{
+  width: 100%;
+}
+
+main{
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-between;
+   height: auto;
+}
+
+nav ul{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+nav ul li:hover{
+  scale: 1.2;
+  text-decoration: underline yellow;
+  transition: 1s;
+}
+
+img{
+  object-fit: cover;
+}
+.image-1{
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+}
+li{
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  list-style: none;
+  padding-top: 20px;
+  position: relative;
+  left: 130px;
+  top: 20px;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.button-1{
+  width: 90px;
+  height: 40px;
+  color: yellow;
+  background-color: black;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  border: 2px solid yellow;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+button:hover{
+  scale: 1.1;
+  color: white;
+  background-color: green;
+  transition: 1s;
+}
+main{
+   width: 100%;
+    height: auto;
+}
+.s1{
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/img/why.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: black;
+   
+}
+.h{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hy{
+    color: #FFD700;
+}
+.hw{
+    color: white;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+    .btn1{
+        width: 150px;
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+        font-size: 18px;
+        
+    }
+     .btn2{
+        width: 150px;
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+        font-size: 18px;
+        background-color:#FFD700 ;
+        
+;
+    }
+}
+.s2{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   gap: 50p;
+   
+   
+}
+.w1{  
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.text1 ol li {
+      margin-top: 60px;     
+}
