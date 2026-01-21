@@ -454,3 +454,7 @@ li .button-9:hover {
   scale: 1.1;
   cursor: pointer;
 }
+
+li{
+  color: white;
+}
